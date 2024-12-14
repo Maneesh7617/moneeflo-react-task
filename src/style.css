@@ -1,0 +1,104 @@
+/* General Reset */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  .container{
+    max-width: 400px !important;
+  }
+  
+  /* Container styling */
+  div {
+    /* margin: 20px auto;
+    padding: 20px; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* max-width: 750px; */
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Form Elements */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .react-tel-input .form-control{
+    width: 100% !important;
+  }
+  
+  input, button {
+    padding: 10px;
+    border: 1px solid #add8e6;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    border-color: #1e90ff;
+    outline: none;
+    box-shadow: 0 0 5px #1e90ff;
+  }
+  
+  button {
+    background-color: #1e90ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #4682b4;
+  }
+  
+  /* Progress Bar */
+  div > div {
+    margin-top: 0px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #1e90ff;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Navigation buttons */
+  button + button {
+    margin-left: 10px;
+  }
+  
+  /* Additional Elements */
+  .phone-input {
+    font-size: 16px;
+  }
+  
+  p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 480px) {
+    
+  
+    button {
+      font-size: 14px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  }
+  
